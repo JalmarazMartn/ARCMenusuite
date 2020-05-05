@@ -1,0 +1,579 @@
+OBJECT MenuSuite 1080 Dept - Partner
+{
+  OBJECT-PROPERTIES
+  {
+    Date=28/04/20;
+    Time=11:14:20;
+    Modified=Yes;
+    Version List=ARC;
+  }
+  PROPERTIES
+  {
+  }
+  MENUNODES
+  {
+    {                ;[{6FBB60D4-3684-4106-BEFF-237518F7236E}] ;NextNodeID=[{D8B12235-DC09-4EB3-BD7C-CAD319350CD5}] }
+    { MenuItem       ;[{D8B12235-DC09-4EB3-BD7C-CAD319350CD5}] ;Name=Configuraci¢n ARC;
+                                                                CaptionML=ESP=Configuraci¢n ARC;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{19A352FE-D90D-424E-B85F-CF3B8E98CF0E}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50000;
+                                                                ParentNodeID=[{8777433F-97D7-457C-ACDD-2E2620FDC182}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{5D2E961C-5D25-4179-B863-A5C6C48CB42D}];
+                                                                DepartmentCategory=Administration }
+    {                ;[{D4407D08-C780-43D3-AA50-A065110A1332}] ;NextNodeID=[{51E34073-6AE3-4989-BED6-57781D1E8177}] }
+    { MenuGroup      ;[{51E34073-6AE3-4989-BED6-57781D1E8177}] ;Name=Actividades periodicas;
+                                                                CaptionML=ESP=Actividades periodicas;
+                                                                MemberOfMenu=[{2DC8C4FE-7346-4124-8C20-383346384C03}];
+                                                                ParentNodeID=[{0DD141CC-3311-4CB7-BE8C-9E20E331DF60}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                FirstChild=[{82A0A485-F08E-4437-B29B-A8E142ED874B}] }
+    { MenuItem       ;[{82A0A485-F08E-4437-B29B-A8E142ED874B}] ;Name=Movs. seguimiento Operador;
+                                                                CaptionML=ESP=Movs. seguimiento Operador;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{2DC8C4FE-7346-4124-8C20-383346384C03}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50003;
+                                                                ParentNodeID=[{51E34073-6AE3-4989-BED6-57781D1E8177}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{05775382-E8CF-40E9-A4E3-9D712EA182EA}] ;Name=Departamentos EDI;
+                                                                CaptionML=ESP=Departamentos EDI;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{2DC8C4FE-7346-4124-8C20-383346384C03}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50006;
+                                                                ParentNodeID=[{D4407D08-C780-43D3-AA50-A065110A1332}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{ED804489-6471-4745-8FA3-E64B7A3455A1}];
+                                                                DepartmentCategory=Administration }
+    {                ;[{8ADA1954-0401-4C87-8682-104B805AD0EA}] ;NextNodeID=[{05775382-E8CF-40E9-A4E3-9D712EA182EA}] }
+    { MenuItem       ;[{ED804489-6471-4745-8FA3-E64B7A3455A1}] ;Name=Paletizados;
+                                                                CaptionML=ESP=Paletizados;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{2DC8C4FE-7346-4124-8C20-383346384C03}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50007;
+                                                                ParentNodeID=[{D4407D08-C780-43D3-AA50-A065110A1332}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{A51B0A6A-99E4-4391-AC30-E5CD4B17EF08}];
+                                                                DepartmentCategory=Administration }
+    {                ;[{F948F6A8-EA69-4B45-B8B1-FFE910976353}] ;NextNodeID=[{94506881-7739-451A-8C45-657CCBBDBC12}] }
+    { Menu           ;[{94506881-7739-451A-8C45-657CCBBDBC12}] ;Name=Expense Management;
+                                                                CaptionML=[ENU=Expense Management;
+                                                                           ESP=Expense Management];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                ParentNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                Image=11;
+                                                                IsShortcut=No;
+                                                                Visible=Yes;
+                                                                Enabled=Yes;
+                                                                NextNodeID=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                FirstChild=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}] }
+    { MenuGroup      ;[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}] ;Name=Udgiftsh†ndtering;
+                                                                CaptionML=[ENU=Processing;
+                                                                           ESP=Procesamiento gasto];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                ParentNodeID=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                FirstChild=[{4D9C0674-5952-4462-8399-709FF87CF3CF}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{4D9C0674-5952-4462-8399-709FF87CF3CF}] ;Name=Settlements;
+                                                                CaptionML=[ENU=Settlements;
+                                                                           ESP=Liquidaciones];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086384;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{8DC856E9-81D2-4914-BC61-90C9D21B1749}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{8DC856E9-81D2-4914-BC61-90C9D21B1749}] ;Name=Expenses;
+                                                                CaptionML=[ENU=Expenses;
+                                                                           ESP=Gastos];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086317;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{83357D93-A6C7-48A2-BC01-945EC0555C1E}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{83357D93-A6C7-48A2-BC01-945EC0555C1E}] ;Name=Expenses;
+                                                                CaptionML=[ENU=Mileage;
+                                                                           ESP=Kilometraje];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086378;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{C47C2C02-FFFD-413F-8207-BBB2AF6C0F87}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{C47C2C02-FFFD-413F-8207-BBB2AF6C0F87}] ;Name=Bank Transactions;
+                                                                CaptionML=[ENU=Bank Transactions;
+                                                                           ESP=Transacciones bancarias];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086332;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{A0D6EDC3-AA38-403C-B493-5FE3A62FE232}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{A0D6EDC3-AA38-403C-B493-5FE3A62FE232}] ;Name=Approval Entries;
+                                                                CaptionML=[ENU=Approval Entries;
+                                                                           ESP=Movimientos aprobaci¢n];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086355;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{9F49859A-0746-4BD8-8950-3377F438F672}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{9F49859A-0746-4BD8-8950-3377F438F672}] ;Name=K›bskladde;
+                                                                CaptionML=[ENU=General Journal;
+                                                                           ESP=Diario general];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=39;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{A57319D3-6004-46D4-BDF0-38F627962F11}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{A57319D3-6004-46D4-BDF0-38F627962F11}] ;Name=Job Journal;
+                                                                CaptionML=[ENU=Job Journal;
+                                                                           ESP=Diario proyecto];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=201;
+                                                                ParentNodeID=[{D9C7D03F-6993-4E34-B9B4-9F85EDAFA276}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Lists }
+    { MenuGroup      ;[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}] ;Name=Administration;
+                                                                CaptionML=[ENU=Administration;
+                                                                           ESP=Administraci¢n];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                ParentNodeID=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                FirstChild=[{99DBDC21-49A1-4454-9F8F-576C318C423F}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{99DBDC21-49A1-4454-9F8F-576C318C423F}] ;Name=Settlement Inbox;
+                                                                CaptionML=[ENU=Settlement Inbox;
+                                                                           ESP=Bandeja de entrada liquidaci¢n];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086389;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{8F41D031-40AA-42DE-8CDA-D3892566217E}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{8F41D031-40AA-42DE-8CDA-D3892566217E}] ;Name=Expense Import Errors;
+                                                                CaptionML=[ENU=Expense Inbox;
+                                                                           ESP=Bandeja de entrada gasto];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086329;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{62D626B1-D5D4-49FD-ADA3-EF93F35E1E0C}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{62D626B1-D5D4-49FD-ADA3-EF93F35E1E0C}] ;Name=Bank Transaction Import Errors;
+                                                                CaptionML=[ENU=Bank Transaction Inbox;
+                                                                           ESP=Bandeja de entrada trans. bancaria];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086345;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{4E8ED43B-2925-46C7-9E0A-8A3F6FC9ADE5}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{4E8ED43B-2925-46C7-9E0A-8A3F6FC9ADE5}] ;Name=Mileage Inbox;
+                                                                CaptionML=[ENU=Mileage Inbox;
+                                                                           ESP=Bandeja de entrada kilometraje];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086377;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{82ED8CDA-4597-4A8C-A029-F002BFE3BA35}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{82ED8CDA-4597-4A8C-A029-F002BFE3BA35}] ;Name=Afregning af k›rsel;
+                                                                CaptionML=[ENU=Mileage Reimbursement;
+                                                                           ESP=Reembolso kilometraje];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086321;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{911217E5-F0B5-44A0-A38F-13BDC6A8D8C5}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{911217E5-F0B5-44A0-A38F-13BDC6A8D8C5}] ;Name=Bank Acc. Reconciliation List;
+                                                                CaptionML=[ENU=EM Bank Account Reconciliations;
+                                                                           ESP=Conciliaciones Cuenta Bancaria];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086413;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{04E9458E-4A74-4287-B656-CB9E7C86B5CF}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{04E9458E-4A74-4287-B656-CB9E7C86B5CF}] ;Name=Synchronize with Continia Onli;
+                                                                CaptionML=[ENU=Synchronize with Continia Online;
+                                                                           ESP=Sincronizar con Continia Online];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Report;
+                                                                RunObjectID=6086310;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{88DB871A-F26E-4C01-98EF-C1C33E082173}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{88DB871A-F26E-4C01-98EF-C1C33E082173}] ;Name=Send Reminder E-mail to Expens;
+                                                                CaptionML=[ENU=Send Reminder E-mail to Expense Users;
+                                                                           ESP=Enviar correo recordatorio a usuarios gasto];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Report;
+                                                                RunObjectID=6086311;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{1AAE3B60-6FF9-4117-9874-56BD966EBE16}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{1AAE3B60-6FF9-4117-9874-56BD966EBE16}] ;Name=Send Status E-mail to Approver;
+                                                                CaptionML=[ENU=Send Status E-mail to Approvers;
+                                                                           ESP=Enviar correo estado a aprobadores];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Report;
+                                                                RunObjectID=6086309;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{32FED928-070B-4818-8FA4-411B9DA3883D}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{32FED928-070B-4818-8FA4-411B9DA3883D}] ;Name=Expense Status Report;
+                                                                CaptionML=[ENU=Expense Management Status Report;
+                                                                           ESP=Informe estado Expense Management];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Report;
+                                                                RunObjectID=6086300;
+                                                                ParentNodeID=[{FFAA1BA8-BA07-46E9-A9A7-EEE6B5A1D0F3}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Reports and Analysis }
+    { MenuGroup      ;[{D603E8CC-1F57-4097-8046-E489B0A66C65}] ;Name=Historik;
+                                                                CaptionML=[ENU=History;
+                                                                           ESP=Historial];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                ParentNodeID=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{290C3E3C-B265-45EF-9957-B0AEF3D26D30}];
+                                                                FirstChild=[{9EAC52E3-90D2-404A-A9CD-F7011F2C6294}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{9EAC52E3-90D2-404A-A9CD-F7011F2C6294}] ;Name=Posted Settlement List;
+                                                                CaptionML=[ENU=Posted Settlements;
+                                                                           ESP=Liquidaciones registradas];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086405;
+                                                                ParentNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{41930F87-C9D0-428E-A405-9BD610A66AF6}];
+                                                                DepartmentCategory=History }
+    { MenuItem       ;[{41930F87-C9D0-428E-A405-9BD610A66AF6}] ;Name=Expense;
+                                                                CaptionML=[ENU=Posted Expenses;
+                                                                           ESP=Gastos registrados];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086351;
+                                                                ParentNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{2BDCBDC8-4BB7-44FE-9BC5-15D19BCB88F3}];
+                                                                DepartmentCategory=History }
+    { MenuItem       ;[{2BDCBDC8-4BB7-44FE-9BC5-15D19BCB88F3}] ;Name=Posted Mileage;
+                                                                CaptionML=[ENU=Posted Mileage;
+                                                                           ESP=Kilometraje registrado];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086379;
+                                                                ParentNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{8F590F06-7032-4F5E-8E15-E2F13EA15BF4}];
+                                                                DepartmentCategory=History }
+    { MenuItem       ;[{8F590F06-7032-4F5E-8E15-E2F13EA15BF4}] ;Name=Mileage Registers;
+                                                                CaptionML=[ENU=Mileage Registers;
+                                                                           ESP=Registros];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086373;
+                                                                ParentNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{A7B9D271-9D1E-4D40-AD37-6535FC21B10B}];
+                                                                DepartmentCategory=History }
+    { MenuItem       ;[{A7B9D271-9D1E-4D40-AD37-6535FC21B10B}] ;Name=Bank Account Statement List;
+                                                                CaptionML=[ENU=EM Bank Account Statement;
+                                                                           ESP=EM Extracto banco];
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=6086417;
+                                                                ParentNodeID=[{D603E8CC-1F57-4097-8046-E489B0A66C65}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Lists }
+    { MenuGroup      ;[{290C3E3C-B265-45EF-9957-B0AEF3D26D30}] ;Name=Captio;
+                                                                CaptionML=ESP=Captio;
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                ParentNodeID=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                FirstChild=[{971CA1B5-07F3-4DD5-8BC0-BEECD17C2C04}] }
+    { MenuItem       ;[{971CA1B5-07F3-4DD5-8BC0-BEECD17C2C04}] ;Name=Log Importaci¢n Notas Gasto;
+                                                                CaptionML=ESP=Log Importaci¢n Notas Gasto;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50071;
+                                                                ParentNodeID=[{290C3E3C-B265-45EF-9957-B0AEF3D26D30}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{E84C4FE9-1989-4E28-BED2-857A37D3C0B7}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{E84C4FE9-1989-4E28-BED2-857A37D3C0B7}] ;Name=Detalle Notas Gasto;
+                                                                CaptionML=ESP=Detalle Notas Gasto;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50072;
+                                                                ParentNodeID=[{290C3E3C-B265-45EF-9957-B0AEF3D26D30}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{AF52F605-E184-4ED6-91C5-4C94E10DA246}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{AF52F605-E184-4ED6-91C5-4C94E10DA246}] ;Name=Hist. Notas Gasto;
+                                                                CaptionML=ESP=Hist. Notas Gasto;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{94506881-7739-451A-8C45-657CCBBDBC12}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50078;
+                                                                ParentNodeID=[{290C3E3C-B265-45EF-9957-B0AEF3D26D30}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Lists }
+    { Menu           ;[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}] ;Name=Intercompany;
+                                                                CaptionML=ESP=Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                ParentNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                Image=11;
+                                                                IsShortcut=No;
+                                                                Visible=Yes;
+                                                                Enabled=Yes;
+                                                                NextNodeID=[{1F046737-9350-4A3E-8C59-D5F42CC2CE17}];
+                                                                FirstChild=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}] }
+    { MenuGroup      ;[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}] ;Name=Intercompany Postings;
+                                                                CaptionML=[ENU=Intercompany Postings;
+                                                                           ESP=Registros entre empresas vinc.];
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                ParentNodeID=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{12DFEE0C-AA8C-4EE0-98DB-43C50D2F508C}];
+                                                                FirstChild=[{F6157409-0359-4722-B572-9876C6FAFF9D}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{F6157409-0359-4722-B572-9876C6FAFF9D}] ;Name=General Journals;
+                                                                CaptionML=[ENU=Intercompany General Journal;
+                                                                           ESP=Diario general de empresas vinculadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=610;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{4B4E614F-02CB-44A8-8BF7-22AA510B5412}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{4B4E614F-02CB-44A8-8BF7-22AA510B5412}] ;Name=Inbox Transactions;
+                                                                CaptionML=[ENU=Intercompany Inbox Transactions;
+                                                                           ESP=Transacciones de bandeja de entrada entre empresas vinculadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=615;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{9052D0B8-4483-4FA1-990C-E0785FD242E4}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{9052D0B8-4483-4FA1-990C-E0785FD242E4}] ;Name=Outbox Transactions;
+                                                                CaptionML=[ENU=Intercompany Outbox Transactions;
+                                                                           ESP=Transacciones de bandeja de salida entre empresas vinculadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=611;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{7B3EC576-94C1-43EC-892B-3E5C9A8E8488}];
+                                                                DepartmentCategory=Tasks }
+    { MenuItem       ;[{7B3EC576-94C1-43EC-892B-3E5C9A8E8488}] ;Name=Handled Inbox Transactions;
+                                                                CaptionML=[ENU=Handled Intercompany Inbox Transactions;
+                                                                           ESP=Transacciones de bandeja de entrada entre empresas vinculadas procesadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=617;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{AD2C747F-EEB4-4427-BA78-A89897B5FC0A}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{AD2C747F-EEB4-4427-BA78-A89897B5FC0A}] ;Name=Handled Outbox Transactions;
+                                                                CaptionML=[ENU=Handled Intercompany Outbox Transactions;
+                                                                           ESP=Transacciones de bandeja de salida entre empresas vinculadas procesadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=613;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{7D5E76B8-6077-4F5E-AC12-1CC1081A5F35}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{7D5E76B8-6077-4F5E-AC12-1CC1081A5F35}] ;Name=Lista de Albaranes IC;
+                                                                CaptionML=ESP=Lista de Albaranes IC;
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50059;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{336F911A-46FD-44AA-AB5E-E9612219EB04}];
+                                                                DepartmentCategory=Lists }
+    { MenuItem       ;[{336F911A-46FD-44AA-AB5E-E9612219EB04}] ;Name=Hist¢rico facturas de compra;
+                                                                CaptionML=ESP=Hist¢rico facturas de compra;
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=146;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{37CF0153-ED37-469F-8CC7-DA5AC1E9A969}];
+                                                                DepartmentCategory=Tasks }
+    { MenuGroup      ;[{12DFEE0C-AA8C-4EE0-98DB-43C50D2F508C}] ;Name=Setup;
+                                                                CaptionML=[ENU=Setup;
+                                                                           ESP=Configuraci¢n];
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                ParentNodeID=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                FirstChild=[{F02E731A-0188-4532-9039-0C40C7292B25}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{F02E731A-0188-4532-9039-0C40C7292B25}] ;Name=General Ledger Setup;
+                                                                CaptionML=[ENU=General Ledger Setup;
+                                                                           ESP=Conf. compras y pagos];
+                                                                ApplicationArea=#Basic,#Suite;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=460;
+                                                                ParentNodeID=[{12DFEE0C-AA8C-4EE0-98DB-43C50D2F508C}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{135126E5-FEDB-44DB-B94C-DF7F10E6422C}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{135126E5-FEDB-44DB-B94C-DF7F10E6422C}] ;Name=Conf. ventas y cobros;
+                                                                CaptionML=ESP=Conf. ventas y cobros;
+                                                                ApplicationArea=#Basic,#Suite;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=459;
+                                                                ParentNodeID=[{12DFEE0C-AA8C-4EE0-98DB-43C50D2F508C}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                DepartmentCategory=Administration }
+    { MenuGroup      ;[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}] ;Name=Intercompany;
+                                                                CaptionML=[ENU=Intercompany Postings;
+                                                                           ESP=Registros entre empresas vinc.];
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                ParentNodeID=[{12DFEE0C-AA8C-4EE0-98DB-43C50D2F508C}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                FirstChild=[{B454EA86-062F-49E2-80C1-A1843ECAE08F}];
+                                                                IsDepartmentPage=No }
+    { MenuItem       ;[{B454EA86-062F-49E2-80C1-A1843ECAE08F}] ;Name=Partner Code;
+                                                                CaptionML=[ENU=Intercompany Partners;
+                                                                           ESP=Socios de empresas vinculadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=608;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{49FF3FC3-F8C3-4013-916A-BD966211B351}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{49FF3FC3-F8C3-4013-916A-BD966211B351}] ;Name=Chart of Accounts;
+                                                                CaptionML=[ENU=Intercompany Chart of Accounts;
+                                                                           ESP=Plan de cuentas de empresas vinculadas];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=605;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{C85140F1-6B29-45D0-AC64-15D4E4690F50}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{C85140F1-6B29-45D0-AC64-15D4E4690F50}] ;Name=Dimensions;
+                                                                CaptionML=[ENU=Intercompany Dimensions;
+                                                                           ESP=Dimensiones de empresas vinculadas];
+                                                                ApplicationArea=#Dimensions;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=600;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{67040200-67EB-47D9-B4DF-08B05F816B74}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{67040200-67EB-47D9-B4DF-08B05F816B74}] ;Name=Tipolog¡as IC;
+                                                                CaptionML=ESP=Tipolog¡as IC;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50073;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{84BDD65B-8E5B-4ABC-98AF-A6ED4AE5E7B4}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{84BDD65B-8E5B-4ABC-98AF-A6ED4AE5E7B4}] ;Name=Intereses IC;
+                                                                CaptionML=ESP=Intereses IC;
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50060;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{25479513-F635-4A0D-9875-16299DE84EC1}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{25479513-F635-4A0D-9875-16299DE84EC1}] ;Name=Plantillas reparto IC;
+                                                                CaptionML=ESP=Plantillas reparto IC;
+                                                                ApplicationArea=;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=50105;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{110F2C0A-62A4-4A78-A3C6-05D46894908C}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{110F2C0A-62A4-4A78-A3C6-05D46894908C}] ;Name=Intercompany Setup;
+                                                                CaptionML=[ENU=Intercompany Setup;
+                                                                           ESP=Config. empr. vincul.];
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Page;
+                                                                RunObjectID=621;
+                                                                ParentNodeID=[{90C9CAAB-773F-422E-9A98-A75BED3B40C6}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Administration }
+    { MenuItem       ;[{37CF0153-ED37-469F-8CC7-DA5AC1E9A969}] ;Name=Calculo intereses IC;
+                                                                CaptionML=ESP=Calculo intereses IC;
+                                                                ApplicationArea=#Intercompany;
+                                                                MemberOfMenu=[{C01570D7-C3BE-4729-BAD2-6D370A2FA3CD}];
+                                                                RunObjectType=Report;
+                                                                RunObjectID=50006;
+                                                                ParentNodeID=[{E663C2ED-3914-40F6-8865-3ABF32BD0C24}];
+                                                                Visible=Yes;
+                                                                NextNodeID=[{00000000-0000-0000-0000-000000000000}];
+                                                                DepartmentCategory=Tasks }
+  }
+}

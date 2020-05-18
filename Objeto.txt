@@ -2,8 +2,8 @@ OBJECT Codeunit 50000 Funciones BAINES
 {
   OBJECT-PROPERTIES
   {
-    Date=29/04/20;
-    Time=12:05:50;
+    Date=11/05/20;
+    Time=17:58:33;
     Modified=Yes;
     Version List=UPG365;
   }
@@ -271,7 +271,6 @@ OBJECT Codeunit 50000 Funciones BAINES
           LinIvaDesglosado."Source Line No." := TempVATAmountLine."N§ l¡nea";
           LinIvaDesglosado.INSERT;
         UNTIL TempVATAmountLine.NEXT = 0;
-
     END;
 
     [EventSubscriber(Codeunit,80,OnBeforeCalcInvoiceDiscountPosting)]
@@ -749,6 +748,35 @@ OBJECT Codeunit 50000 Funciones BAINES
     BEGIN
       SalesShipmentLine.CALCFIELDS(Prefacturado);
       SalesShipmentLine.TESTFIELD(Prefacturado,FALSE);
+    END;
+
+    LOCAL PROCEDURE "--BAIN XXXX--"@1170000039();
+    BEGIN
+    END;
+
+    [EventSubscriber(Page,6510,OnClosePageEvent)]
+    LOCAL PROCEDURE P6510OnClosePage@1170000041(VAR Rec@1170000000 : Record 336);
+    VAR
+      ReservationEntry@1170000001 : Record 337;
+      SalesLine@1170000002 : Record 37;
+    BEGIN
+      WITH Rec DO BEGIN
+        ReservationEntry.SETRANGE("Source Type","Source Type");
+        ReservationEntry.SETRANGE("Source ID","Source ID");
+        ReservationEntry.SETRANGE("Source Ref. No.","Source Ref. No.");
+        IF ReservationEntry.COUNT=1 THEN BEGIN
+          ReservationEntry.FINDFIRST;
+          ReservationEntry."Quantity (Price UOM)"         := "Quantity (Price UOM)";
+          ReservationEntry."Price Unit Of Measure Code"   := "Price Unit Of Measure Code";
+          ReservationEntry.MODIFY;
+          IF "Source Type"=37 THEN BEGIN
+            SalesLine.GET("Source Subtype","Source ID","Source Ref. No.");
+            SalesLine.VALIDATE("Price Unit Of Measure Code","Price Unit Of Measure Code");
+            SalesLine.VALIDATE("Quantity (Price UOM)","Quantity (Price UOM)");
+            SalesLine.MODIFY;
+            END;
+          END;
+      END;
     END;
 
     BEGIN
